@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
 <title>上品玩偶｜玩具・公仔・盲盒批發｜娃娃機商品供應</title>
 <meta name="description" content="上品玩偶為娃娃機台主提供玩具、公仔、盲盒批發。正版貨源、少量可批、快速出貨，桃園實體門市可現場看貨。歡迎加入官方 LINE@ 索取批發價目表。">
 <meta name="keywords" content="玩具批發,公仔批發,盲盒批發,娃娃機商品,娃娃機台主,台主進貨,扭蛋批發,一番賞,潮玩批發,桃園玩具批發,上品玩偶">
@@ -21,7 +23,7 @@
   "description":"玩具、公仔、盲盒批發，娃娃機商品供應。正版授權、少量可批、桃園實體門市。",
   "telephone":"+886966888138",
   "openingHours":"Mo-Sa 11:00-19:00",
-  "address":{"@type":"PostalAddress","addressRegion":"桃園市","addressLocality":"桃園區","streetAddress":"介壽路555巷121號","addressCountry":"TW"},
+  "address":{"@type":"PostalAddress","addressRegion":"桃園市","addressLocality":"桃園區","streetAddress":"介壽路一段555巷121號","addressCountry":"TW"},
   "sameAs":["https://www.tiktok.com/@sphomesphome","https://www.instagram.com/sphome001/"]
 }
 </script>
@@ -51,6 +53,7 @@
   .nav{display:flex;align-items:center;justify-content:space-between;height:58px;gap:12px}
   .brand{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--green-900);font-size:1.05rem;white-space:nowrap}
   .brand .logo{width:30px;height:30px;border-radius:6px;background:var(--green-700);color:#fff;display:grid;place-items:center;font-size:.78rem;font-weight:700;flex:0 0 30px}
+  .brand .logo-img{height:42px;width:auto;display:block}
   .nav-links{display:flex;gap:22px;font-weight:500;font-size:.92rem}
   .nav-links a:hover{color:var(--green-600)}
   .nav-cta{background:var(--green-700);color:#fff;padding:8px 15px;border-radius:6px;font-weight:700;font-size:.85rem;white-space:nowrap}
@@ -91,14 +94,6 @@
   .cat h3{font-size:1rem;margin-bottom:2px}
   .cat p{color:var(--muted);font-size:.82rem}
 
-  .steps{counter-reset:s}
-  .step{display:flex;gap:14px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}
-  .step:last-child{border-bottom:0}
-  .step .n{counter-increment:s;flex:0 0 34px;width:34px;height:34px;border-radius:6px;background:var(--green-100);color:var(--green-700);display:grid;place-items:center;font-weight:700}
-  .step .n::before{content:counter(s)}
-  .step h3{font-size:1.02rem;margin-bottom:2px}
-  .step p{color:var(--muted);font-size:.92rem}
-
   .band{background:var(--green-900);color:#eaf2ec}
   .band .wrap{text-align:center}
   .band h2{color:#fff;font-size:clamp(1.4rem,4vw,1.9rem);margin-bottom:12px}
@@ -108,9 +103,6 @@
   .band-list span::before{content:"";position:absolute;left:0;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--gold)}
   .btn-line-lg{background:#06c755;color:#fff;padding:16px 32px;font-size:1.05rem;border-radius:8px;font-weight:700;display:inline-block}
   .btn-line-lg:hover{filter:brightness(.95)}
-  .chan{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
-  .chan a{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px 22px;font-weight:700;font-size:.95rem;box-shadow:var(--shadow);transition:.18s}
-  .chan a:hover{border-color:var(--green-600);color:var(--green-700)}
 
   .store{background:#fff;border-top:1px solid var(--line)}
   .store-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center}
@@ -126,14 +118,13 @@
   footer .socials a{padding:8px 16px;border-radius:6px;background:rgba(255,255,255,.1);font-weight:600;font-size:.82rem;transition:.18s}
   footer .socials a:hover{background:var(--green-600)}
   footer .copy{font-size:.8rem;color:#8aa294;margin-top:10px}
-  .note{background:#fff7e6;border:1px dashed var(--gold);color:#7a5a14;font-size:.8rem;padding:4px 10px;border-radius:8px;display:inline-block;margin-top:8px}
 </style>
 </head>
 <body>
 
 <header>
   <div class="wrap nav">
-    <div class="brand"><span class="logo">上品</span> 上品玩偶</div>
+    <div class="brand"><img src="logo.png" alt="上品玩偶 LOGO" class="logo-img"> 上品玩偶</div>
     <nav class="nav-links">
       <a href="#about">關於</a><a href="#category">商品</a><a href="#store">門市</a>
     </nav>
@@ -181,32 +172,25 @@
   </div>
 </section>
 
-<section class="band">
-  <div class="wrap">
-    <p class="eyebrow" style="color:#a9c8b6">加入官方 LINE@</p>
-    <h2>完整商品與批發價，都在 LINE@</h2>
-    <p class="sub">這裡只是部分展示。加入官方 LINE@ 後，即可取得完整型錄與批發報價，並由專人協助分流批發或零售。</p>
-    <div class="band-list"><span>完整商品型錄</span><span>批發價目表</span><span>最新到貨通知</span><span>選品建議</span><span>專人報價</span></div>
-    <a class="btn-line-lg" href="https://line.me/R/ti/p/@249tlgjx" target="_blank" rel="noopener">加入官方 LINE@ 解鎖完整批發</a>
-  </div>
-</section>
-
 <section id="store" class="store">
   <div class="wrap store-grid">
     <div class="store-info">
       <p class="eyebrow">門市資訊</p><h2>桃園實體門市</h2>
+      <p style="margin:-6px 0 14px;color:var(--gold);font-weight:700;font-size:.92rem">★ 4.7　Google 評論（6 則）</p>
       <table>
         <tr><td class="k">公司</td><td>上品玩偶批發有限公司</td></tr>
         <tr><td class="k">統一編號</td><td>96824761</td></tr>
-        <tr><td class="k">地址</td><td>桃園市桃園區介壽路 555 巷 121 號</td></tr>
+        <tr><td class="k">地址</td><td>桃園市桃園區介壽路一段 555 巷 121 號</td></tr>
         <tr><td class="k">營業時間</td><td>週一至週六 11:00–19:00</td></tr>
         <tr><td class="k">電話</td><td><a href="tel:0966888138" style="color:var(--green-700);font-weight:700">0966-888-138</a></td></tr>
-        <tr><td class="k">服務</td><td>現場看貨、批發洽談、台主諮詢</td></tr>
       </table>
-      <div class="btns" style="margin-top:18px"><a class="btn btn-line" href="https://line.me/R/ti/p/@249tlgjx" target="_blank" rel="noopener">加入 LINE@ 預約看貨</a></div>
+      <div class="btns" style="margin-top:18px;gap:10px">
+        <a class="btn btn-line" href="https://line.me/R/ti/p/@249tlgjx" target="_blank" rel="noopener">加入 LINE@</a>
+        <a class="btn btn-shop" href="https://maps.app.goo.gl/D6h6r6XADpgPRt8E8" target="_blank" rel="noopener">在 Google 地圖開啟</a>
+      </div>
     </div>
-    <div class="map-box" style="overflow:hidden;border-radius:var(--radius);min-height:240px">
-      <iframe title="上品玩偶批發有限公司地圖" src="https://maps.google.com/maps?q=%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%BB%8B%E5%A3%BD%E8%B7%AF555%E5%B7%B7121%E8%99%9F&output=embed" style="width:100%;height:100%;border:0" loading="lazy"></iframe>
+    <div class="map-box" style="overflow:hidden;border-radius:var(--radius);min-height:240px;border:1px solid var(--line)">
+      <img src="store.jpg" alt="上品玩偶桃園門市招牌外觀" style="width:100%;height:100%;object-fit:cover">
     </div>
   </div>
 </section>
@@ -215,14 +199,8 @@
   <div class="brand" style="justify-content:center;color:#fff;font-size:1.15rem"><span class="logo">上品</span> 上品玩偶</div>
   <p style="margin-top:8px;color:#a9c8b6;font-size:.9rem">玩具・公仔・盲盒批發｜娃娃機商品供應｜桃園實體門市</p>
   <p style="margin-top:4px;color:#7d9488;font-size:.8rem">上品玩偶批發有限公司　統一編號 96824761</p>
-  <p style="margin-top:2px;color:#7d9488;font-size:.8rem">桃園市桃園區介壽路 555 巷 121 號　0966-888-138</p>
-  <div class="socials">
-    <a href="https://www.tiktok.com/@sphomesphome" target="_blank" rel="noopener">TikTok</a>
-    <a href="https://www.instagram.com/sphome001/" target="_blank" rel="noopener">Instagram</a>
-    <a href="#REPLACE_THREADS" target="_blank" rel="noopener">Threads</a>
-    <a href="https://line.me/R/ti/p/@249tlgjx" target="_blank" rel="noopener">LINE</a>
-  </div>
-  <p class="copy">© 2026 上品玩偶</p>
+  <p style="margin-top:2px;color:#7d9488;font-size:.8rem">桃園市桃園區介壽路一段 555 巷 121 號　0966-888-138</p>
+  <p class="copy" style="margin-top:16px">© 2026 上品玩偶</p>
 </footer>
 
 </body>
